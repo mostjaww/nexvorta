@@ -1,0 +1,73 @@
+[debug] [2025-11-30T15:26:10.877Z] ----------------------------------------------------------------------
+[debug] [2025-11-30T15:26:10.884Z] Command:       E:\Application\laragon\bin\nodejs\node-v23\node.exe C:\Users\GF63\.npm-global\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-11-30T15:26:10.885Z] CLI Version:   14.26.0
+[debug] [2025-11-30T15:26:10.885Z] Platform:      win32
+[debug] [2025-11-30T15:26:10.885Z] Node Version:  v24.11.0
+[debug] [2025-11-30T15:26:10.885Z] Time:          Sun Nov 30 2025 22:26:10 GMT+0700 (Western Indonesia Time)
+[debug] [2025-11-30T15:26:10.886Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Application\XAMPP\htdocs\Nexvorta
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-11-30T15:26:17.425Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-30T15:26:17.426Z] > authorizing via signed-in user (handryansyah1@gmail.com)
+[debug] [2025-11-30T15:26:17.427Z] Checked if tokens are valid: true, expires at: 1764519154847
+[debug] [2025-11-30T15:26:17.427Z] Checked if tokens are valid: true, expires at: 1764519154847
+[debug] [2025-11-30T15:26:17.428Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nexvorta [none]
+[debug] [2025-11-30T15:26:18.089Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nexvorta 200
+[debug] [2025-11-30T15:26:18.089Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nexvorta {"projectId":"nexvorta","projectNumber":"559049776040","displayName":"Nexvorta","name":"projects/nexvorta","resources":{"hostingSite":"nexvorta"},"state":"ACTIVE","etag":"1_265eee59-b102-4b99-a612-67a7a8c56ea2"}
+[info] i  Using project nexvorta (Nexvorta) . 
+[info] 
+=== Hosting Setup
+[debug] [2025-11-30T15:26:18.101Z] Checked if tokens are valid: true, expires at: 1764519154847
+[debug] [2025-11-30T15:26:18.101Z] Checked if tokens are valid: true, expires at: 1764519154847
+[debug] [2025-11-30T15:26:18.101Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nexvorta [none]
+[debug] [2025-11-30T15:26:18.421Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nexvorta 200
+[debug] [2025-11-30T15:26:18.421Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nexvorta {"projectId":"nexvorta","projectNumber":"559049776040","displayName":"Nexvorta","name":"projects/nexvorta","resources":{"hostingSite":"nexvorta"},"state":"ACTIVE","etag":"1_265eee59-b102-4b99-a612-67a7a8c56ea2"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming E:\Application\XAMPP\htdocs\Nexvorta is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=974533111&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-11-30T15:27:41.954Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-11-30T15:27:41.954Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-11-30T15:27:42.530Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-11-30T15:27:42.531Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-11-30T15:27:42.538Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-11-30T15:27:43.098Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-11-30T15:27:43.099Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"mostjaww","id":102147380,"node_id":"U_kgDOBhalNA","avatar_url":"https://avatars.githubusercontent.com/u/102147380?v=4","gravatar_id":"","url":"https://api.github.com/users/mostjaww","html_url":"https://github.com/mostjaww","followers_url":"https://api.github.com/users/mostjaww/followers","following_url":"https://api.github.com/users/mostjaww/following{/other_user}","gists_url":"https://api.github.com/users/mostjaww/gists{/gist_id}","starred_url":"https://api.github.com/users/mostjaww/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mostjaww/subscriptions","organizations_url":"https://api.github.com/users/mostjaww/orgs","repos_url":"https://api.github.com/users/mostjaww/repos","events_url":"https://api.github.com/users/mostjaww/events{/privacy}","received_events_url":"https://api.github.com/users/mostjaww/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Handryansyah Purba","company":"KVLAR TEAM PROJECTS","blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":6,"public_gists":0,"followers":0,"following":1,"created_at":"2022-03-22T09:23:55Z","updated_at":"2025-11-21T09:27:55Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":68413,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as mostjaww 
+[info] 
+[debug] [2025-11-30T15:27:53.811Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-11-30T15:27:54.129Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-11-30T15:27:54.129Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
