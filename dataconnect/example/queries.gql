@@ -1,0 +1,28 @@
+mutation CreateCustomer($address: String, $contactPerson: String!, $createdAt: Timestamp!, $email: String, $name: String!, $phone: String) @auth(level: USER) {
+  customer_insert(data: {address: $address, contactPerson: $contactPerson, createdAt: $createdAt, email: $email, name: $name, phone: $phone})
+}
+
+query ListProducts @auth(level: PUBLIC, insecureReason: "This operation is safe to expose to the public") {
+  products {
+    id
+    name
+    price
+    description
+  }
+}
+
+mutation UpdateProduct($id: UUID!, $name: String, $price: Float, $description: String) @auth(level: USER) {
+  product_update(id: $id, data: {name: $name, price: $price, description: $description})
+}
+
+query GetCustomer($id: UUID!) @auth(level: USER) {
+  customer(id: $id) {
+    id
+    name
+    email
+    phone
+    address
+    contactPerson
+    createdAt
+  }
+}
