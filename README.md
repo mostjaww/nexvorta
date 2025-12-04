@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Firebase Deploy](https://img.shields.io/badge/Deployed-Firebase-orange)](https://console.firebase.google.com/project/nexvorta/overview)
 
-Deskripsi singkat proyek. Nexvorta adalah platform [Sebutkan jenis platformnya: E-commerce/Manajemen/Sosial] yang berfokus pada [Sebutkan fokus utama: kecepatan/skalabilitas/integrasi].
+Nexvorta adalah platform Export & Import yang digunakan untuk mempermudah buyer dan customer bertransaksi secara realtime tanpa harus bertemu tatap muka dan berfokus pada kemudahan transaksi, skalabilitas dan membantu masyarakat dalam menjual produk nya.
 
 ## 🌟 Fitur Utama
 
@@ -11,13 +11,12 @@ Deskripsi singkat proyek. Nexvorta adalah platform [Sebutkan jenis platformnya: 
 * **Data Real-time:** Pengelolaan data dengan Firestore.
 * **Fungsi *Backend* Kustom:** Menggunakan Firebase Functions untuk logika bisnis.
 * **Hosting Cepat:** *Frontend* di-host menggunakan Firebase Hosting.
-* [Tambahkan fitur spesifik lain yang menonjol].
 
 ## 🛠️ Instalasi
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
 
-### 1. Klon Repositori
+### 1. Cloning Repository
 
 ```bash
 git clone [https://github.com/YourUsername/nexvorta.git](https://github.com/YourUsername/nexvorta.git)
