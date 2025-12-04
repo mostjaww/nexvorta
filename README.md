@@ -19,5 +19,5 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
 ### 1. Cloning Repository
 
 ```bash
-git clone [https://github.com/YourUsername/nexvorta.git](https://github.com/YourUsername/nexvorta.git)
+git clone [https://github.com/YourUsername/nexvorta.git](https://github.com/mostjaww/nexvorta.git)
 cd nexvorta
