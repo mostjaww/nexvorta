@@ -11,13 +11,3 @@ Nexvorta adalah platform Export & Import yang digunakan untuk mempermudah buyer 
 * **Data Real-time:** Pengelolaan data dengan Firestore.
 * **Fungsi *Backend* Kustom:** Menggunakan Firebase Functions untuk logika bisnis.
 * **Hosting Cepat:** *Frontend* di-host menggunakan Firebase Hosting.
-
-## 🛠️ Instalasi
-
-Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
-
-### 1. Cloning Repository
-
-```bash
-git clone [https://github.com/YourUsername/nexvorta.git](https://github.com/mostjaww/nexvorta.git)
-cd nexvorta
